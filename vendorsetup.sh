@@ -1,7 +1,7 @@
 echo 'Starting to clone stuffs needed to build for ingres'
 
 echo 'Cloning vendor ingres'
-git clone https://gitlab.com/vherawidatama/vendor_xiaomi_ingres.git -b 14 vendor/xiaomi/ingres
+git clone https://gitlab.com/skyres17/vendor_xiaomi_ingres -b A15 vendor/xiaomi/ingres
 
 echo 'Cloning sm8450-common'
 git clone https://github.com/MadBot-ingres/android_device_xiaomi_sm8450-common.git -b lineage-22 device/xiaomi/sm8450-common
