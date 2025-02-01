@@ -20,9 +20,6 @@ BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 DEVICE_PATH := device/xiaomi/ingres
 KERNEL_PATH := device/xiaomi/ingres-kernel
 
-# Camera - Miui
-TARGET_CAMERA_PACKAGE_NAME := com.android.camera
-
 # dtbo/dtbs prebuilt
 BOARD_USES_DT := true
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtbs
